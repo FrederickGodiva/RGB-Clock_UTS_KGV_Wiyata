@@ -79,7 +79,7 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
     }
     else if(key == GLFW_KEY_T && action == GLFW_PRESS) {
         float inputHour, inputMinute, inputSecond;
-        std::cout << "C is pressed" << std::endl;
+        std::cout << "T is pressed" << std::endl;
         std::cout << "Jam : "; 
         std::cin >> inputHour;
 
@@ -93,8 +93,8 @@ void keyCallback(GLFWwindow* window, int key, int scancode, int action, int mods
         float minute = inputMinute * 60;
         float second = inputSecond;
 
-        glfwSetTime(hour + minute + second); 
-        cout << "Time Changed Successfully" << endl;
+        glfwSetTime(hour + minute + second);
+        std::cout << "Time Changed Successfully" << std::endl;
     }
 }
 
