@@ -7,9 +7,9 @@
 #include <math.h>
 #include "Utility.h"
 
-float velocitySecondPointer = -6.0f / 2;
-float velocityMinutePointer = -0.1f / 2;
-float velocityHourPointer = -0.0083333f / 2;
+float velocitySecondPointer = -3.0f;
+float velocityMinutePointer = -0.05f;
+float velocityHourPointer = -0.0041666666666667f;
 
 float currentSecondPointer = 270.0f;
 float currentMinutePointer = 270.0f;
